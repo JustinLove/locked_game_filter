@@ -1,0 +1,7 @@
+.locked_game_filter {
+  color: white;
+  font-size: 10vh;
+  position: absolute;
+  top: 45vh;
+  left: 30vw;
+}

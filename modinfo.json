@@ -1,0 +1,21 @@
+{
+  "author": "wondible",
+  "build": "76557",
+  "category": ["ui", "server-browser"],
+  "context": "client",
+  "date": "2014/12/27",
+  "description": "Remove passworded games from the server browser list.",
+  "display_name": "Locked Game Filter",
+  "forum": null,
+  "identifier": "com.wondible.pa.locked_game_filter",
+  "priority": 100,
+  "scenes": {
+    "server_browser": [
+      "coui://ui/mods/locked_game_filter/locked_game_filter.css",
+      "coui://ui/mods/locked_game_filter/locked_game_filter.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
