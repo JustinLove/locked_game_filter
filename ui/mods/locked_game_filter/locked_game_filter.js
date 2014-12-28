@@ -1,5 +1,5 @@
 (function() {
-  model.lockedGameFilter = ko.observable('open');
+  model.lockedGameFilter = ko.observable('open').extend({local: 'locked_game_filter'})
 
   var baseFilteredGameList = model.filteredGameList
   model.filteredGameList = ko.computed(function() {
