@@ -1,3 +1,13 @@
-<div class="locked_game_filter">
-  Locked Game Filter
+<div class="form-group">
+  <label for="password-protected">
+    Password Protected
+  </label>
+  <select class="selectpicker form-control" id="password-protected" name="password-protected" data-bind="selectPicker: lockedGameFilter">
+    <option value="any" locattr="locdata" locdata="!LOC(server_browser:any.message):Any"></option>
+
+    <option value="locked">Locked</option>
+
+    <option value="open">Open</option>
+  </select>
 </div>
+
