@@ -6,7 +6,7 @@
   "date": "2014/12/27",
   "description": "Remove passworded games from the server browser list.",
   "display_name": "Locked Game Filter",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-locked-game-filter.66824/",
   "identifier": "com.wondible.pa.locked_game_filter",
   "priority": 100,
   "scenes": {
@@ -15,6 +15,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
 
