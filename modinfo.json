@@ -11,7 +11,6 @@
   "priority": 100,
   "scenes": {
     "server_browser": [
-      "coui://ui/mods/locked_game_filter/locked_game_filter.css",
       "coui://ui/mods/locked_game_filter/locked_game_filter.js"
     ]
   },
